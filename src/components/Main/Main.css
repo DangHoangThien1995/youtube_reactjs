@@ -1,0 +1,96 @@
+*{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1{
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 82px/normal "Anton", Helvetica, sans-serif;
+  color: rgb(112, 112, 112);
+  text-align: center;
+  text-transform: uppercase;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+	font-size: 40px;
+}
+
+h2,h3,h5 {
+    text-transform: uppercase;
+		color: black;
+}
+body{
+	background-image: url("../../img/bg.jpg");
+	background-size:     auto;                    
+  background-repeat:   no-repeat;
+  background-position: center center;      
+	margin-bottom: 50px;
+}
+.intro-heading {
+	margin-top: 100px;
+  font-size: 75px;
+  line-height: 75px;
+}
+hr{
+	border-top: 1px solid #8c8b8b;
+	width: 25%;
+}
+.button {
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-radius: 3px;
+    font-size: 26px;
+		font-weight: 1000;
+    padding: 1px 12px;
+}
+.text{
+	padding: 10px;
+	width: 60%;
+  margin-left:auto;
+  margin-right:auto;
+ 	border: none;
+ 	border-bottom: solid 2px #c9c9c9;
+ 	transition: border 0.3s;
+}
+.text-muted{
+	color: #777;
+}
+footer {
+  background-color: #f8f8f8;
+	padding: 10px 0px;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+.youtube-clip{
+    margin: auto;
+}
+.subvideo {
+		padding: 5px 0px;
+		text-align: center;
+		margin-left: auto;
+  	margin-right: auto;
+		width: 50%;
+		height: 35px;
+}
+.button-youtube{
+		position: relative;
+    top: 250px;
+	  text-align: center;
+}
+.centered{
+		margin-left: auto;
+  	margin-right: auto;
+		width: 50%;
+}
+.row{
+	margin-bottom: 50px
+}
+@media screen and (min-width: 480px) {
+    .video {
+				height: 500px;
+    }
+}
+
